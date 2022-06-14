@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(./fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: rgb(113, 219, 171);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+header{
+    text-align: center;
+    background-color: rgb(33, 133, 90);
+    box-shadow: 5px -34px 18px rgba(0, 0, 0, 0.381) inset;
+    color: white;
+}
+header > h1{
+    margin: 0;
+    padding: 15px 0px 0px 0px;
+    color: white;
+}
+header > nav{
+    background-color: rgb(25, 89, 61);
+    text-align: start;
+    padding: 5px 5px;
+    margin: 0px;
+}
+header > nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+header > nav > a:hover{
+    color: rgba(255, 255, 255, 0.423);
+    background-color: rgb(82, 203, 82);
+    padding: 5px;
+}
+main{
+   padding: 3em;
+}
+section{
+    padding: 2px 10px;
+    background-color: white;
+}
+section > h1{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-family: 'idroid';
+    font-size: 1.8em;
+}
+section > p{
+    text-indent: 22px;
+    font-size: 1.2em;
+}
+section > p > a{
+    color: rgb(13, 99, 35);
+    margin: 0;
+    text-decoration: none;
+}
+section >h2{
+    background-color: rgba(113, 219, 171, 0.307);
+    font-size: 1.6em;
+    font-family: 'idroid';
+}
